@@ -6,8 +6,7 @@ def to_ascii(input_string):
     db = json.load(f)
 
     letter = input_string.lower()
-    list = []
-
+    
     count = 0
 
     res = []
